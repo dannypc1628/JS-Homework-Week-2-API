@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Day 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand" href="#">小書痴的下剋上</a>
+    </nav>
+    <div class="container">
+        <div class="row mb-2">
+            <div class="col">
+                <h1>
+                    產品列表
+                </h1>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <button id="getButton" type="button" class="btn btn-primary">Get</button>
+                <button type="button" class="btn btn-success" disabled>Post</button>
+                <button type="button" class="btn btn-warning" disabled>Update</button>
+                <button type="button" class="btn btn-danger" disabled>Delete</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="row" id="cardList">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="all.js"></script>
+</body>
+
+</html>
